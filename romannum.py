@@ -7,3 +7,8 @@ def roman_to_int(s: str) -> int:
         else:
             result += roman_dict[s[i]]
     return result
+print(roman_to_int('III'))
+print(roman_to_int('LVIII'))
+print(roman_to_int('MCMXCIV'))
+print(roman_to_int('XCIX'))
+print(roman_to_int('MMDCCCL'))
